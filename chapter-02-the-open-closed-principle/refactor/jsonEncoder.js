@@ -3,8 +3,13 @@ function jsonEncoder() {
         // something here...
     }
 
+    function prepareData() {
+        // something here
+    }
+
     return {
         encode,
+        prepareData,
     };
 }
 
