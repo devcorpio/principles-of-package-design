@@ -3,7 +3,7 @@ function yamlEncoder() {
         // something here...
     }
 
-    function prepareData() {
+    function prepareData(data) {
         // something here
     }
 

@@ -3,8 +3,12 @@ function xmlEncoder() {
         // something here...
     }
 
-    function prepareData() {
-        // something here
+    function prepareData(data) {
+        // something here, for example:
+
+        data = fixAttributes(data);
+
+        return data;
     }
 
     return {

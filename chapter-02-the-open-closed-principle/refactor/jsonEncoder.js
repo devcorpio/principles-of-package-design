@@ -3,8 +3,13 @@ function jsonEncoder() {
         // something here...
     }
 
-    function prepareData() {
-        // something here
+    function prepareData(data) {
+        // something here, for example:
+
+        data = forceArray(data);
+        data = fixKeys(data);
+
+        return data;
     }
 
     return {
