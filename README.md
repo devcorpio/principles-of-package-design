@@ -53,3 +53,13 @@ The style of the code and the chosen tools are 100% my decision. (The good and t
       - <a href="https://github.com/devcorpio/principles-of-package-design/commit/09f676b">renaming confirmationMailMailer file</a>
      </p>
     </details>
+
+2.  _The Open/Closed principle_
+
+    <details><summary>git commits done during the chapter :shipit:</summary>
+     <p>
+      - <a href="https://github.com/devcorpio/principles-of-package-design/commit/8de78eb">create a genericEncoder that violates the open/closed principle</a><br>
+      - <a href="https://github.com/devcorpio/principles-of-package-design/commit/0ac5c23">worsen the genericEncoder adding a case for yaml format</a><br>
+      - <a href="https://github.com/devcorpio/principles-of-package-design/commit/c4ee242">worsen the genericEncoder adding the method prepareData that also violates the open/closed principle</a><br>
+     </p>
+    </details>
