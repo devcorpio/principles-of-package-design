@@ -61,5 +61,12 @@ The style of the code and the chosen tools are 100% my decision. (The good and t
       - <a href="https://github.com/devcorpio/principles-of-package-design/commit/8de78eb">create a genericEncoder that violates the open/closed principle</a><br>
       - <a href="https://github.com/devcorpio/principles-of-package-design/commit/0ac5c23">worsen the genericEncoder adding a case for yaml format</a><br>
       - <a href="https://github.com/devcorpio/principles-of-package-design/commit/c4ee242">worsen the genericEncoder adding the method prepareData that also violates the open/closed principle</a><br>
+       - <a href="https://github.com/devcorpio/principles-of-package-design/commit/96193de">creating 3 different encoders that implements an interface, in this case I'm trusting in duck typing due the lack of interfaces in javascript language unless you use flowjs or an superset like typescript</a><br>
+       - <a href="https://github.com/devcorpio/principles-of-package-design/commit/a08b781">creating a encodeFactory whose only responsibility is to create encoders based in the given format</a><br>
+       - <a href="https://github.com/devcorpio/principles-of-package-design/commit/a14b46f">refactoring genericEncoder to use the encoder factory</a><br>
+       - <a href="https://github.com/devcorpio/principles-of-package-design/commit/b06e05d">making encoderFactory open for extension injecting factories</a><br>
+       - <a href="https://github.com/devcorpio/principles-of-package-design/commit/bdb6adf">creating another mandatory method for the encoders: prepareData</a><br>
+       - <a href="https://github.com/devcorpio/principles-of-package-design/commit/dc74dde">using prepareData of the specific encoder, however we just introduced temporal coupling...</a><br>
+       - <a href="https://github.com/devcorpio/principles-of-package-design/commit/dee4183">removing the temporal cooupling :), who knows, maybe even it is not longer necesary the existence of genericEnconder, instead we could use the encodeFactory whenever we need it :)</a><br>
      </p>
     </details>
