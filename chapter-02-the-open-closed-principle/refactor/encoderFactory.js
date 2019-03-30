@@ -1,22 +1,21 @@
-const jsonEncoder = require('./jsonEncoder');
-const xmlEncoder = require('./xmlEncoder');
-const yamlEncoder = require('./yamlEncoder');
-
 function encoderFactory() {
+    const factories = {};
+
     function createForFormat(format) {
-        if (format === 'json') {
-            return jsonEncoder();
-        } else if (format === 'xml') {
-            return xmlEncoder();
-        } else if (format === 'yml') {
-            return yamlEncoder();
+        if (typeof factories[format] !== 'function') {
+            throw new Error('Unknown format');
         }
 
-        throw new Error('Unknown format');
+        return factories[format];
+    }
+
+    function addEncoderFactory(format, fn) {
+        factories[format] = fn;
     }
 
     return {
         createForFormat,
+        addEncoderFactory,
     };
 }
 
