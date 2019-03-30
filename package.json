@@ -1,0 +1,26 @@
+{
+    "name": "principles_of_package_design",
+    "version": "1.0.0",
+    "description": "Repository that contains code in node.js from the book Principles of Package Design by Matthias Noback",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/devcorpio/principles-of-package-design.git"
+    },
+    "keywords": [],
+    "author": "devcorpio",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/devcorpio/principles-of-package-design/issues"
+    },
+    "homepage": "https://github.com/devcorpio/principles-of-package-design#readme",
+    "devDependencies": {
+        "husky": "^1.3.1",
+        "prettier": "^1.16.4",
+        "pretty-quick": "^1.10.0"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "pretty-quick --staged"
+        }
+    }
+}
