@@ -1,5 +1,7 @@
 function jsonEncoder() {
-    function encode() {
+    function encode(data) {
+        data = prepareData(data);
+
         // something here...
     }
 
@@ -14,7 +16,6 @@ function jsonEncoder() {
 
     return {
         encode,
-        prepareData,
     };
 }
 

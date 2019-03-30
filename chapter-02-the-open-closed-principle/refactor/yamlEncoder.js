@@ -1,5 +1,7 @@
 function yamlEncoder() {
-    function encode() {
+    function encode(data) {
+        data = prepareData(data);
+
         // something here...
     }
 
@@ -9,7 +11,6 @@ function yamlEncoder() {
 
     return {
         encode,
-        prepareData,
     };
 }
 

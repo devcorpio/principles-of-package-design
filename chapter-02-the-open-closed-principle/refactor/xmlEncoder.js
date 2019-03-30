@@ -1,5 +1,7 @@
 function xmlEncoder() {
     function encode() {
+        data = prepareData(data);
+
         // something here...
     }
 
@@ -13,7 +15,6 @@ function xmlEncoder() {
 
     return {
         encode,
-        prepareData,
     };
 }
 

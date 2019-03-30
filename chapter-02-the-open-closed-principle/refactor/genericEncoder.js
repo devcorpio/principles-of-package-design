@@ -2,8 +2,6 @@ function genericEncoder(encoderFactory) {
     function encodeToFormat(data, format) {
         const encoder = encoderFactory.createForFormat(format);
 
-        data = encoderFactory.prepareData(data);
-
         return encoder.encode(data);
     }
 
