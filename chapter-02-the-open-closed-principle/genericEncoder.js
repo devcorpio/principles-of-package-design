@@ -5,6 +5,8 @@ function genericEncoder() {
             encoder = new JsonEncoder();
         } else if (format === 'xml') {
             encoder = new XmlEncoder();
+        } else if (format === 'yml') {
+            encoder = new YmlEncoder();
         } else {
             throw new Error('Unknown format');
         }
