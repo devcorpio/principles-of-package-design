@@ -1,4 +1,24 @@
+/**
+ * In order to improve the understanding of this code, this file it is supposing to implement the following interface:
+ *
+ * interface RuleInterface {
+ *  function matches(number);
+ *  function getReplacement();
+ * }
+ *
+ * Quack Quack Quack 🦆 typing :D
+ */
+
 function fizzBuzz() {
+    const rules = [];
+
+    /**
+     * @param {RuleInterface} rule
+     */
+    function addRule(rule) {
+        rules.push(rule);
+    }
+
     function generateList(limit) {
         const list = [];
 
@@ -10,18 +30,10 @@ function fizzBuzz() {
     }
 
     function generateElement(number) {
-        const fizzBuzzRule = fizzBuzzRule();
-
-        if (fizzBuzzRule.matches(number)) {
-            return fizzBuzzRule.getReplacement();
-        }
-
-        if (fizzRule.matches(number)) {
-            return fizzRule.getReplacement();
-        }
-
-        if (buzzRule.matches(number)) {
-            return buzzRule.getReplacement();
+        for (let ruleNumber = 0; ruleNumber < rules.length; ruleNumber++) {
+            if (rules[ruleNumber].matches(number)) {
+                return rules[ruleNumber].getReplacement();
+            }
         }
 
         return number;
@@ -29,6 +41,7 @@ function fizzBuzz() {
 
     return {
         generateList,
+        addRule,
     };
 }
 

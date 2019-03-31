@@ -1,6 +1,6 @@
 function fizzBuzzRule() {
     function matches(number) {
-        return number % 3 && number && 5 === 0;
+        return number % 3 && number % 5 === 0;
     }
 
     function getReplacement() {
