@@ -13,7 +13,7 @@ function dropboxFile() {
     function rename(name) {}
 
     function changeOwner(user, group) {
-        new Error('Not implemented for Dropbox files');
+        // silence... nothing happening here...
     }
 
     return {
