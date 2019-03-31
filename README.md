@@ -94,3 +94,16 @@ The style of the code and the chosen tools are 100% my decision. (The good and t
       - <a href="https://github.com/devcorpio/principles-of-package-design/commit/3a3cf49">adding role and header interfaces to use in entityManager</a><br>
      </p>
     </details>
+
+5.  _The Dependency Inversion Principle_
+
+    <details><summary>git commits done during the chapter :shipit:</summary> 
+     <p>
+      - <a href="https://github.com/devcorpio/principles-of-package-design/commit/fbc4fb5">creating fizzbuzz function</a><br>
+      - <a href="https://github.com/devcorpio/principles-of-package-design/commit/9d5789d">making fizzBuzz open for extension, step 1</a><br>
+      - <a href="https://github.com/devcorpio/principles-of-package-design/commit/9bea4e9">making fizzBuzz open for extension finished, and right now with the rules is depending on abstractions, an example of the inversion principle</a><br>
+      - <a href="https://github.com/devcorpio/principles-of-package-design/commit/7043373">adding authentication function that violates SRP, open close andependency inversion among others</a><br>
+      - <a href="https://github.com/devcorpio/principles-of-package-design/commit/a6f1b3b">making authentication depending of a concrete class of userProvider, dependency inversion still is been violated</a><br>
+      - <a href="https://github.com/devcorpio/principles-of-package-design/commit/ed00a64">authentication is not depending in connection anymore, now depends in an abstraction</a><br>
+     </p>
+    </details>
