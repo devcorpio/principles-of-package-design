@@ -80,3 +80,17 @@ The style of the code and the chosen tools are 100% my decision. (The good and t
       - <a href="https://github.com/devcorpio/principles-of-package-design/commit/1922cf0">splitting interfaces in order to avoid to need to throw an error or not make something if some user uses changeOwner in a class that not have implementation</a><br>
      </p>
     </details>
+
+4.  _The Interface Segretation Principle_
+
+    <details><summary>git commits done during the chapter :shipit:</summary> 
+     <p>
+      - <a href="https://github.com/devcorpio/principles-of-package-design/commit/4ce1081">example of a serviceContainer that implements a interface that violates the interface segregation principle</a><br>
+      - <a href="https://github.com/devcorpio/principles-of-package-design/commit/e8d3c8f">separating the virtual interfaces I created, that allows one client use only what need, set, get or both :)</a><br>
+      - <a href="https://github.com/devcorpio/principles-of-package-design/commit/0917c3c">kernel code expect a service container that only need the method set</a><br>
+      - <a href="https://github.com/devcorpio/principles-of-package-design/commit/c7977bc">a example of controller that  expect a service container that only need the method get</a><br>
+      - <a href="https://github.com/devcorpio/principles-of-package-design/commit/c90e001">userRepository it is depending of a concrete class instead of a interface</a><br>
+      - <a href="https://github.com/devcorpio/principles-of-package-design/commit/0a29dff">making getUnitOfWork public to use in the new file query.js, automatically all the clients of entityManager depend of this method too, regardless if they use it, can cause backward compatibility problems...</a><br>
+      - <a href="https://github.com/devcorpio/principles-of-package-design/commit/3a3cf49">adding role and header interfaces to use in entityManager</a><br>
+     </p>
+    </details>
