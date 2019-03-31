@@ -1,4 +1,7 @@
-function userProvider(connection) {
+/**
+ * @implements {UserProviderInterface}
+ */
+function mysqlUserProvider(connection) {
     function findUser(username) {
         return connection.fetchAssoc('SELECT * FROM users WHERE username = ?', [
             username,
@@ -10,4 +13,4 @@ function userProvider(connection) {
     };
 }
 
-module.exports = userProvider;
+module.exports = mysqlUserProvider;
