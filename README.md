@@ -70,3 +70,13 @@ The style of the code and the chosen tools are 100% my decision. (The good and t
        - <a href="https://github.com/devcorpio/principles-of-package-design/commit/dee4183">removing the temporal cooupling :), who knows, maybe even it is not longer necesary the existence of genericEnconder, instead we could use the encodeFactory whenever we need it :)</a><br>
      </p>
     </details>
+
+3.  _The Liskov substitution principle_
+
+    <details><summary>git commits done during the chapter :shipit:</summary> 
+     <p>
+      - <a href="https://github.com/devcorpio/principles-of-package-design/commit/afc3aa2">adding dropbox specific implementation of fileinterface where change Owner has not implementation, this is not be a good example of a good substitute, calling that method will crash the application</a><br>
+      - <a href="https://github.com/devcorpio/principles-of-package-design/commit/f818d26">instead of throwing exception, don't do nothing... silent behavior... we are lying to the user of our class...</a><br>
+      - <a href="https://github.com/devcorpio/principles-of-package-design/commit/1922cf0">splitting interfaces in order to avoid to need to throw an error or not make something if some user uses changeOwner in a class that not have implementation</a><br>
+     </p>
+    </details>
