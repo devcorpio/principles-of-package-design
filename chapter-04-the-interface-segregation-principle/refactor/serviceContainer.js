@@ -1,4 +1,5 @@
 /**
+ * In order to improve the understanding of this code, this file it is supposing to implement the following interfaces:
  *
  * interface MutableServiceContainerInterface {
  *  function set(name, fn);
@@ -12,12 +13,12 @@
  */
 
 function serviceContainer() {
-    function get(name) {
-        // something here...
-    }
-
     function set(name, fn) {
         // something here
+    }
+
+    function get(name) {
+        // something here...
     }
 
     return {
