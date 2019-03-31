@@ -14,6 +14,7 @@ function entityManager() {
     return {
         persist,
         flush,
+        getUnitOfWork,
     };
 }
 
