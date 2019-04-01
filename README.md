@@ -107,3 +107,11 @@ The style of the code and the chosen tools are 100% my decision. (The good and t
       - <a href="https://github.com/devcorpio/principles-of-package-design/commit/ed00a64">authentication is not depending in connection anymore, now depends in an abstraction</a><br>
      </p>
     </details>
+
+6.  _The Release/Reuse Rquivalence Principle_
+
+    <details><summary>git commits done during the chapter :shipit:</summary>
+     <p>
+      - No commits here, a chapter with good tips :)
+     </p>
+    </details>
