@@ -131,3 +131,44 @@ The style of the code and the chosen tools are 100% my decision. (The good and t
       - No commits here, a chapter with good tips :)
      </p>
     </details>
+
+9.  _The Acyclic Dependencies Principle_
+
+    <details><summary>git commits done during the chapter :shipit:</summary>
+     <p>
+      - No commits here, a chapter with good tips :)
+     </p>
+    </details>
+
+10. _The Stable Dependencies Principle_
+
+
+    <details><summary>git commits done during the chapter :shipit:</summary>
+     <p>
+      - No commits here, a chapter with good tips :)
+     </p>
+    </details>
+
+11. _The Stable Abstraction Principle_
+
+
+    <details><summary>git commits done during the chapter :shipit:</summary>
+     <p>
+      - No commits here, a chapter with good tips :)
+     </p>
+    </details>
+
+12. _Conclusions_
+
+
+    <details><summary>git commits done during the chapter :shipit:</summary>
+     <p>
+      - No commits here, a chapter with good tips :)
+     </p>
+    </details>
+
+## Final thoughts
+
+I hope you enjoy the repository as much I while I was writing it :smiley:
+
+I strongly encourage that you should [buy the book](https://www.amazon.com/Principles-Package-Design-Creating-Components/dp/1484241185), it is really fantastic.
